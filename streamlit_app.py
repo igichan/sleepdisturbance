@@ -3,6 +3,7 @@ import streamlit as st
 st.set_page_config(page_title="수면 장애 자가 진단", layout="centered")
 
 st.title("🛏️ 수면 장애 자가 진단법")
+st.write("")
 st.write("""
 최근 한 달간 일주일에 몇 번이나 아래 보기 항목에 해당했는지 체크해보세요.
 """)
