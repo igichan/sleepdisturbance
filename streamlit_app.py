@@ -44,4 +44,4 @@ else:
     st.success("✅ 안심! 수면에 큰 문제가 없어 보입니다.")
 
 # 선택된 항목 수 요약
-st.markdown(f"### 🔢 선택된 증상 수: **{count}개**")
+st.markdown(f"### ➕ 선택된 증상 수: **{count}개**")
