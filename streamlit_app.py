@@ -7,6 +7,8 @@ st.write("""
 최근 한 달간 일주일에 몇 번이나 아래 보기 항목에 해당했는지 체크해보세요.
 """)
 
+st.write("")
+
 symptoms = [
     "잠들기까지 30분 이상 걸린다.",
     "잠드는 시간에 대한 강박증이 있다.",
@@ -31,8 +33,12 @@ for symptom in symptoms:
 
 count = len(selected)
 
+st.write("")
+
 # 선택된 증상 개수 표시 (결과확인 버튼 위에)
 st.write(f"총 결과 개수: {count}")
+
+st.write("")
 
 # 결과확인 버튼 및 결과 분석
 if st.button("결과확인"):
